@@ -10,9 +10,13 @@
   --gray-50: #e1e1e6;
   --gray-300: #a8a8b3;
   --gray-900: #121214;
-
+  --gray-cyan: #1f2729;
   --cyan-500: #61dafb;
   --yellow-500: #eba417;
+  --green: #2E8B57;
+  --green-light: #a1e455;
+  --green-sea: #008000;
+  --green-dark: #006400;
 }
 @media(max-width: 1080px) {
   html {
@@ -27,7 +31,7 @@
 }
 
 body {
-  background: var(--gray-900);
+  background: var(--gray-50);
   color: var(--white);
 }
 
