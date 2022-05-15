@@ -1,15 +1,15 @@
 import {FaSignInAlt} from 'react-icons/fa';
 import styles from './styles.module.scss';
 
-export function SigInButton(){
+export function LogoutButton(){
   return(
     <button
       type="button"
-      className={styles.signInButton}
-      onClick = {() => {}}
-      >
+      className={styles.logoutButton}
+      onClick={() => {}}
+    >
       < FaSignInAlt color='#e1e1e6'/>
-      Login
+      Logout
     </button>
   )
 }

@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { Header } from '../components/Header';
 import styles from '../styles/home/home.module.scss';
 
 export default function Home() {
@@ -8,7 +7,6 @@ export default function Home() {
       <Head>
         <title>Home | Physio App</title>
       </Head>
-      <Header />
         <main className={styles.contentContainer}>
           <section className={styles.contentText}>
             <span>👏 Olá, bem vindo</span>
